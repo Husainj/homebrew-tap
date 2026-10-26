@@ -2,8 +2,8 @@
 # Users install with:  brew install --cask husainj/tap/<appname>
 # After each release, update `version` and `sha256` (scripts/release.sh prints both).
 cask "notchpilot" do
-  version "0.1.0"
-  sha256 "3f9dd738500051da3b0923a249b5e10fc63f89f34c513154e3d48a9f1e51a608"
+  version "0.2.0"
+  sha256 "bc3a7191102601410002ec8d44e4288f0f06139d30150b763a7b8940dad70fa7"
 
   url "https://github.com/Husainj/notchpilot/releases/download/v#{version}/NotchPilot-#{version}.dmg"
   name "NotchPilot"
